@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.FirstTaskApplication.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.FirstTaskApplication.PopupOverlay">
+
+                <ImageView
+                    android:id="@+id/logo_toolbar"
+                    android:contentDescription="@string/toolbar"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    app:srcCompat="@drawable/motorolasolutionlogo_purple"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/airplaneModeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/listening_to_airplane_mode"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="17sp" />
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/openCameraBtn"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:background="#0000"
+        android:fontFamily="sans-serif"
+        android:text="@string/open_camera"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="17sp"
+        app:cornerRadius="10dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchBluetoothMode"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/bluetooth_switchbtn"
+        android:textColor="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp" />
+
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/setNewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/change_my_name"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        android:background="#0000"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="83dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="230dp">
+
+        <ImageButton
+            android:id="@+id/play_music_btn"
+            android:layout_width="61dp"
+            android:layout_height="62dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/playmusic"
+            android:src="@drawable/_82151"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:src="@drawable/_82151" />
+    </LinearLayout>
+
+
+</LinearLayout>

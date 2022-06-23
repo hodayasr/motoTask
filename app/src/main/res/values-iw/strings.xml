@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FirstTaskApplication</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="change_my_name">שינוי שם</string>
+    <string name="airplane_on">מצב טיסה מופעל</string>
+    <string name="first_task_lable">משימה1</string>
+    <string name="airplane_off">מצב טיסה כבוי</string>
+    <string name="airplane_on_toast">מצב טיסה מופעל</string>
+    <string name="airplane_off_toast">מצב טיסה מכובה</string>
+    <string name="bluetooth_mngr_is_null">מנהל הBluetooth ריק</string>
+    <string name="bluetooth_on">Bluetooth דולק</string>
+    <string name="bluetooth_off">Bluetooth כבוי</string>
+    <string name="insert_your_name">הוסף כאן את שמך : </string>
+    <string name="insert">הוסף</string>
+    <string name="permission_denied">הרשאה נדחתה !</string>
+    <string name="hello">היי \u0020</string>
+    <string name="no_permission">אין הרשאה</string>
+    <string name="permission_already_granted">ההרשאה כבר ניתנה</string>
+    <string name="empty" />
+    <string name="bluetooth_not_support">Bluetooth לא נתמך</string>
+    <string name="name_not_valid">השם לא תקין</string>
+    <string name="letters_expression">^[א-ת]+$</string>
+    <string name="bluetooth_switchbtn">בלוטוס</string>
+    <string name="open_camera">פתח מצלמה</string>
+    <string name="listening_to_airplane_mode">מאזין .. </string>
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FirstTaskApplication</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="change_my_name">change my name</string>
+    <string name="airplane_on">Airplane Mode : ON</string>
+    <string name="first_task_lable">FirstTask</string>
+    <string name="airplane_off">Airplane Mode : OFF </string>
+    <string name="airplane_on_toast">Airplane Mode is ON</string>
+    <string name="airplane_off_toast">Airplane Mode is OFF</string>
+    <string name="bluetooth_mngr_is_null">Bluetooth Manager is null !</string>
+    <string name="bluetooth_on">Bluetooth is ON</string>
+    <string name="bluetooth_off">Bluetooth is OFF</string>
+    <string name="insert_your_name">Insert Your Name : </string>
+    <string name="insert">Insert</string>
+    <string name="permission_denied">Permission denied !</string>
+    <string name="hello">Hello \u0020</string>
+    <string name="no_permission">No permission</string>
+    <string name="permission_already_granted">Permission already granted</string>
+    <string name="empty" />
+    <string name="bluetooth_not_support">Bluetooth NOT support</string>
+    <string name="name_not_valid">That name is not valid</string>
+    <string name="letters_expression">^[a-zA-Z]+$</string>
+    <string name="bluetooth_switchbtn" tools:ignore="MissingTranslation">Bluetooth</string>
+    <string name="open_camera" tools:ignore="MissingTranslation">Open camera</string>
+    <string name="listening_to_airplane_mode" tools:ignore="MissingTranslation">Listening to airplane mode</string>
+    <string name="playmusic">playmusic</string>
+    <string name="toolbar">toolbar</string>
+    <string name="ringplaying">Ringtone playing !</string>
+    <string name="ringstopping">Ringtone stopping !</string>
+</resources>
